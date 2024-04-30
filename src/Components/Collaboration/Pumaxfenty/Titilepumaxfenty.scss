@@ -1,0 +1,23 @@
+.Titilepumaxfenty_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // gap: 2vh;
+    flex-direction: column;
+
+    h1{
+        //  font: bold;
+    }
+    h2{
+        color: black;
+        margin-top: 2px;
+        margin-bottom: 35px;
+
+    }
+    button{
+        background-color:black;
+        color: white;
+        border-radius:5px;
+        padding: 25px;
+    }
+}

@@ -1,0 +1,64 @@
+
+
+
+
+
+.navbar {
+    display: flex;
+    // justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    // border: 1px solid white;
+    
+    .navbar_left {
+      margin-right: 20px;
+    }
+  
+    .navbar_center {
+      flex-grow: .8;
+    //   text-align: center;
+  
+      .navbar_list {
+        list-style: none;
+        padding:10px;
+        // border: 1px solid white;
+
+        margin: 0;
+  
+        li {
+          display: inline-block;
+          margin-right: 50px;
+
+  
+          a {
+            text-decoration: none;
+            color: white;
+          }
+        }
+      }
+    }
+  
+    .navbar_right {
+      display: flex;
+      align-items: center;
+  
+      .navbar_search {
+        margin-right: 10px;
+        padding: 5px;
+        border-radius: 5px;
+        // border: 1px solid white;
+        background-color: transparent;
+        color: white;
+      }
+  
+      i {
+        margin-right: 10px;
+        font-size: 20px;
+        color: white;
+        cursor: pointer;
+      }
+    }
+  }
+  
